@@ -12,9 +12,13 @@ The red spheres, which begin coincident with the ideal needle, are used to visua
 The blue box is the tissue, where the needle with deflect due to the bevel tip.
 
 The yellow plane is referred to as the "target plane". It is coincident with the intended needle target and normal to the Z-Axis of the end-effector. Within the target plane there exist 4 spheres. These spheres are described below.
+
 1.Green  -> Needle target
+
 2.Yellow -> Prediction of intersection between future needle trajectory and target plane
+
 3.Blue   -> Prediction of intersection between future needle trajectory and target plane __if__ an optimal sequence is carried out from current time step onwards
+
 4.Pink   -> Possible intersection between future needle trajectory and target plane if a change in action were to be taken. This sphere constantly moves about the target plane to show all possible insertions with the target plane. Note that the blue sphere belongs to the set of points that the pink sphere moves through.
 
 ## Demonstration of needle insertion with no deflection compensation
