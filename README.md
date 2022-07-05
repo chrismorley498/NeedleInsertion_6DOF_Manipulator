@@ -4,7 +4,7 @@ This repo highlights some of the work, I've carried out during my Master's thesi
 ## Bevel-Tip Needle
 The asymmetric bevel-tip creates an uneven pressure distrubution surrounding the needle tip. This results in the deflection of the needle tip in a "predictable-ish" direction. Nonlinear and nonhomogeneous properties of fat and/or muscle tissue prevent the exact future direction of deflection from being know. The image below demonstrates the effect of the bevel tip needle.
 
-<img src="images/bevelTipDeflection.png" width="400" height="500">
+<img src="images/bevelTipDeflection.png" width="600" height="400">
 
 ## Nomenclature for demonstrations below
 An "ideal" needle can be seen in silver, rigidly connected to the end-effector of the robotic manipulator. This needle does not deflect from a straight-line path due to the needle-tissue interaction. 
@@ -25,20 +25,20 @@ The yellow plane is referred to as the "target plane". It is coincident with the
 
 ## Demonstration of needle insertion with no deflection compensation
 
-<img src="Gifs/deflectionDemo.gif" width="400" height="700">
+<img src="Gifs/deflectionDemo.gif" width="600" height="400">
 
 ## Demonstration of needle insertion with deflection compensation
 
 Here the deflection compensation can be seen at work. The spheres within the target plane move unpredictably during the first few time steps when the needle first enters the blue box. Once the Kalman Filter has settled the spheres move with predictable behaviour. Once it is determined that some optimal sequence can result in the needle tip reaching some allowable space surrounding the target, the system will begin acting on that set of optimal actions which includes rotational and linear motion.
 
-<img src="Gifs/compensationDemoFast.gif" width="400" height="700">
+<img src="Gifs/compensationDemoFast.gif" width="600" height="400">
 
 ## Demonstration of needle insertion with deflection compensation (slow)
 
 This animation is the same as above but slowed down to better illustrate what is happening with the predictions
 
-<img src="Gifs/compensationDemoSlow.gif" width="400" height="700">
+<img src="Gifs/compensationDemoSlow.gif" width="600" height="400">
 
 ## Close of up target plane sphere behaviour
 
-<img src="Gifs/closeUp.gif" width="400" height="700">
+<img src="Gifs/closeUp.gif" width="600" height="400">
