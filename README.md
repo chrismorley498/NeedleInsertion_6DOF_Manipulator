@@ -22,20 +22,20 @@ The yellow plane is referred to as the "target plane". It is coincident with the
 
 ## Demonstration of needle insertion with no deflection compensation
 
-<img src="Gifs/deflectionDemo.gif" width="600" height="400">
+<img src="Gifs/deflectionDemo.gif" width="600" height="350">
 
 ## Demonstration of needle insertion with deflection compensation
 
 Here the deflection compensation can be seen at work. The spheres within the target plane move unpredictably during the first few time steps when the needle first enters the blue box. Once the Kalman Filter has settled the spheres move with predictable behaviour. Once it is determined that some optimal sequence can result in the needle tip reaching some allowable space surrounding the target, the system will begin acting on that set of optimal actions which includes rotational and linear motion.
 
-<img src="Gifs/compensationDemoFast.gif" width="600" height="400">
+<img src="Gifs/compensationDemoFast.gif" width="600" height="350">
 
 ## Demonstration of needle insertion with deflection compensation (slow)
 
 This animation is the same as above but slowed down to better illustrate what is happening with the predictions
 
-<img src="Gifs/compensationDemoSlow.gif" width="600" height="400">
+<img src="Gifs/compensationDemoSlow.gif" width="600" height="350">
 
 ## Close of up target plane sphere behaviour
 
-<img src="Gifs/closeUp.gif" width="600" height="400">
+<img src="Gifs/closeUp.gif" width="600" height="350">
