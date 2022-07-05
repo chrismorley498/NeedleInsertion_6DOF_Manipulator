@@ -6,6 +6,11 @@ The asymmetric bevel-tip creates an uneven pressure distrubution surrounding the
 
 <img src="images/bevelTipDeflection.png" width="600" height="400">
 
+## Optimal Actions with Bevel-Tip
+Determining the correct moment during the insertion to rotate the needle is the focus of this work. The image below shows the intended target, in green, as well as several different paths of needle insertions where the different paths have the needle rotation by different amounts, and at different times. The path in orange shows an example where the rotation (a) is the correct magnitude and direction and (b) occurs at the correct moment.
+
+<img src="images/correctPath.png" width="350" height="600">
+
 ## Nomenclature for demonstrations below
 An "ideal" needle can be seen in silver, rigidly connected to the end-effector of the robotic manipulator. This needle does not deflect from a straight-line path due to the needle-tissue interaction. 
 
