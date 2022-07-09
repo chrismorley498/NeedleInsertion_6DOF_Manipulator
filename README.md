@@ -39,7 +39,7 @@ Here the deflection compensation can be seen at work. The spheres within the tar
 
 This animation is the same as above but slowed down to better illustrate what is happening with the predictions
 
-<img src="Gifs/compensationDemoSlow.gif" width="600" height="350">
+<img src="Gifs/compensationSlow.gif" width="600" height="350">
 
 ## Close of up target plane sphere behaviour
 
